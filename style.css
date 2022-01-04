@@ -4,7 +4,9 @@ body{
 }
 h1{
     font-size: 50px;
-    colo
+}
+h2{
+    font-size: 40px;
 }
 .orange-color{
     color: orange;
@@ -50,5 +52,33 @@ h1{
     padding-right: 150px;
 }
 .margin{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.shadow{
+    
+    border-radius: 10px;
+    padding: 2%;
+    margin-right: 5%;
+    margin-left: 5%;
+    width: 40%;
+    box-shadow: 10px 10px 40px lightsalmon;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+#righta{
+    border-left: 10px solid;
+    border-image: linear-gradient(orange, tomato);
+    border-image-slice: 1;
+}
+#rightb{
+    border-left: 10px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+footer p{
     text-align: center;
 }
